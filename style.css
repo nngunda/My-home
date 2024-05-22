@@ -1,0 +1,115 @@
+header {
+    font-family: 'Impact',sans-serif;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    opacity:0.7;
+    display: flex;
+    align-items: center;
+    h1 {
+        margin: 0; padding: 0;
+        font-size: 40px;
+     }
+     a {	
+        text-decoration: none;
+        color: #FFF;
+     }
+ }
+body {
+    margin:0px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(113, 113, 113, 0)),
+    url('./images/IMG00918.jpg');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .moji{
+        font-size: 13px;  
+        color: #FFF; 
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .mei{
+        font-size: 16px;  
+        color: #FFF; 
+    }
+    .left {
+        float: left;
+        text-align:center
+    }
+    .right {
+        float: right;
+        text-align:center
+    }
+    
+    footer{
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: auto;
+        opacity:0.7;
+    }
+}
+@media screen and (max-width: 480px) {
+    header {
+        font-family: 'Impact',sans-serif;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        width: 95%;
+        background-color: #000;
+        opacity:0.7;
+        display: flex;
+        align-items: center;
+        h1 {
+            margin: 0; padding: 0;
+            font-size: 40px;
+         }
+         a {	
+            text-decoration: none;
+            color: #FFF;
+         }
+     }
+    body {
+        margin:0px;
+        overflow-x: hidden;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(113, 113, 113, 0)),
+        url('./images/IMG009181.jpg');
+        background-size:  cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .moji{
+            font-size: 13px;  
+            color: #FFF; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .mei{
+            font-size: 16px;  
+            color: #FFF; 
+        }
+        .left {
+            float: left;
+            text-align:center
+        }
+        .right {
+            float: right;
+            text-align:center
+        }
+        
+        footer{
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: auto;
+            opacity:0.7;
+        }
+    }
+ }
